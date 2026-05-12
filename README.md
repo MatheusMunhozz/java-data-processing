@@ -13,16 +13,18 @@ Todos os exemplos e exercícios abordam três pilares fundamentais para trabalha
 
 ## 📂 Estrutura
 
+```
 src/
 ├── aprendizado_ativo/
-│ ├── Colecoes.java
-│ ├── Streams.java
-│ └── StringsFormatacao.java
+│   ├── Colecoes.java
+│   ├── Streams.java
+│   └── StringsFormatacao.java
 │
 └── desafios_praticos/
-├── collections/
-├── streams/
-└── strings_regex/
+    ├── collections/
+    ├── streams/
+    └── strings_regex/
+```
 
 
 ## 🧠 Tecnologias utilizadas
