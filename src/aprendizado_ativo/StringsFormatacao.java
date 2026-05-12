@@ -1,4 +1,4 @@
-package praticas;
+package aprendizado_ativo;
 
 public class StringsFormatacao {
     public static void main(String[] args) {

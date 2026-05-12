@@ -1,4 +1,4 @@
-package exercicios_praticos.collections;
+package desafios_praticos.collections;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package praticas;
+package aprendizado_ativo;
 
 import java.util.*;
 import java.util.List;

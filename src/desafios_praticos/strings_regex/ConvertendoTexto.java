@@ -1,4 +1,4 @@
-package exercicios_praticos.strings_regex;
+package desafios_praticos.strings_regex;
 
 import java.util.Scanner;
 
