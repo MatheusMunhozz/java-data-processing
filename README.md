@@ -19,10 +19,10 @@ src/
 │ ├── Streams.java
 │ └── StringsFormatacao.java
 │
-└── desafios_praticos/ 
-├── collections/ # List, Set, Map – ordenação, filtros, remoção
-├── streams/ # filter, map, reduce, collectors
-└── strings_regex/ # validação, extração, substituição, limpeza
+└── desafios_praticos/
+├── collections/
+├── streams/
+└── strings_regex/
 
 
 ## 🧠 Tecnologias utilizadas
