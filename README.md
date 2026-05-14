@@ -1,24 +1,36 @@
 # Java Data Processing
 
-Manipulação, validação e transformação de dados em Java puro – da prática à resolução de desafios.
+Repositório dedicado aos meus estudos de manipulação, validação e transformação de dados com Java, com foco em estruturas utilizadas no desenvolvimento backend.
 
 ## 📌 Sobre
 
-Este repositório documenta minha evolução no processamento de dados com Java, organizado em duas frentes:
+Este repositório documenta minha evolução no processamento de dados com Java por meio de práticas, exercícios e desafios organizados em duas frentes principais:
 
-- **Aprendizado ativo** – códigos que refiz do zero, linha a linha, a partir de aulas, até fixar os conceitos.
-- **Desafios práticos** – problemas propostos durante o curso, resolvidos de forma independente.
+- **Aprendizado ativo** – códigos refeitos do zero para fixação dos conceitos estudados.
+- **Desafios práticos** – problemas resolvidos de forma independente para reforçar lógica, manipulação e transformação de dados.
 
-Todos os exemplos e exercícios abordam três pilares fundamentais para trabalhar com dados no back-end: **expressões regulares, coleções e Streams API**.
+Os conteúdos abordam três pilares fundamentais para processamento de dados em aplicações backend: **expressões regulares, coleções e Streams API**.
 
-## 📂 Estrutura
+## 🧠 Tecnologias e Conceitos
 
-```
+- **Java 17**
+- Regex (`java.util.regex`)
+- Java Collections Framework (`List`, `Set`, `Map`)
+- Streams API
+- Manipulação e transformação de dados
+- Filtragem e validação de informações
+- Estruturação de coleções
+- Operações com Streams (`filter`, `map`, `reduce`)
+
+## 📂 Estrutura do Projeto
+
+```txt
 src/
+│
 ├── aprendizado_ativo/
-│   ├── Colecoes.java
-│   ├── Streams.java
-│   └── StringsFormatacao.java
+│   ├── collections/
+│   ├── streams/
+│   └── strings_regex/
 │
 └── desafios_praticos/
     ├── collections/
@@ -26,36 +38,29 @@ src/
     └── strings_regex/
 ```
 
+## 🎯 Principais tópicos praticados
 
-## 🧠 Tecnologias utilizadas
+### Collections
+- Adição, acesso e remoção de elementos
+- Manipulação de `List`, `Set` e `Map`
+- Verificação e organização de dados em coleções
 
-- Java 17+
-- Regex (java.util.regex)
-- Java Collections Framework (List, Set, Map)
-- Streams API
+### Streams
+- Operações com `filter`, `map` e `reduce`
+- Cálculos e transformação de dados
+- Filtragem e processamento de listas
 
-## ▶️ Como executar
+### Regex e Strings
+- Validação de CPF, senhas e códigos
+- Extração de informações com expressões regulares
+- Formatação e limpeza de textos
+- Manipulação de Strings em Java
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/java-data-processing.git
+## 🎯 Objetivo
 
-2. Compile e execute qualquer arquivo individualmente (todos possuem método main):
+Consolidar conhecimentos em processamento de dados com Java e desenvolver uma base sólida para aplicações backend que utilizam manipulação, validação e transformação de informações.
 
-javac src/desafios_praticos/collections/AcessandoElementos.java
-java src.desafios_praticos.collections.AcessandoElementos
+## 📫 Contato
 
-Se estiver usando IntelliJ, marque a pasta src como Sources Root (botão direito → Mark Directory as → Sources Root).
-
-🎯 Exemplos do que você encontra
-Coleções – adicionar, acessar e remover elementos; uso de Map para clientes; verificação de chaves.
-
-Streams – calcular quadrados, estatísticas de notas, selecionar nomes curtos, calcular imposto.
-
-Regex – validar CPF, senhas, códigos de referência; extrair hashtags e nomes de arquivo; formatar números e limpar espaços.
-
-📫 Contato
-Este repositório é parte do meu portfólio de desenvolvimento back-end. Estou em busca de uma oportunidade de estágio.
-
-[LinkedIn] (www.linkedin.com/in/matheusmunhozferreira)
-[E-mail] (matheusmunhozferreira@gmail.com)
+- LinkedIn: www.linkedin.com/in/matheusmunhozferreira
+- E-mail: matheusmunhozferreira@gmail.com
